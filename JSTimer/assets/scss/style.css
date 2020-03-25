@@ -1,0 +1,42 @@
+body {
+    font-family: monospace, sans-serif;
+}
+
+.app {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: lemonchiffon;
+}
+
+.app .timer {
+    text-align: center;
+    width: 250px;
+    padding: 15px;
+    color: floralwhite;
+    background-color: #460000;
+    border-radius: 8px;
+}
+
+.app .buttons {
+    text-align: center;
+    width: 200px;
+    padding: 15px;
+    background: #adadad;
+    border-radius: 0px 0px 8px 8px;
+}
+
+
+/*# sourceMappingURL=style.css.map */
